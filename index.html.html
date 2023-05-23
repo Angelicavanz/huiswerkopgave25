@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mijn huiswerkopgave</title>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js">
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#verberg").click(function() {
+                $("p").fadeOut();
+                });
+                $("#toon").click(function() {
+                $("p").fadeIn();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <button id="verberg">Verberg</button>
+        <button id="toon">Toon</button>
+        <p>Met de knoppen kunt u deze tekst laten verdwijnen.</p>
+        <noscript>
+            Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+        </noscript>
+    </body>
+</html>
